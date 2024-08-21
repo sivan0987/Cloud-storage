@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+  justify-content: space-between;
+}
+.header a {
+  text-decoration: none;
+}
+.leftbuttons{
+    display: flex;
+  flex-direction: row;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+}
+.link h3 {
+  color: black;
+}
+.link:hover {
+  background-color: rgba(128, 128, 128, 0.31);
+  border-radius: 10px;
+}
+.link {
+  background-color: transparent;
+  border: none;
+}
+.uploadfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 9px;
+}
+.uploadfile:hover {
+  background-color: rgba(128, 128, 128, 0.31);
+  border-radius: 10px;
+}
+
+.link,
+.uploadfile {
+  padding: 4px 24px;
+}
+.backbutton{
+    display: flex;
+    flex-direction: row;
+    background-color:transparent ;
+    border: none;
+    gap: 10px;
+}
+.backicon{
+    display: flex;
+    align-items: center;
+}
+.backbutton svg{
+    display: flex;
+    align-items: center;
+}
